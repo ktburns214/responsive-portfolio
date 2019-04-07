@@ -1,0 +1,22 @@
+{
+  "name": "responsive-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktburns214/responsive-portfolio.git"
+  },
+  "author": "Katie Burns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktburns214/responsive-portfolio/issues"
+  },
+  "homepage": "https://github.com/ktburns214/responsive-portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
