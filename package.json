@@ -4,7 +4,7 @@
   "description": "Responsive portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o public/css/ --recursive"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ktburns214/responsive-portfolio#readme",
   "dependencies": {
+    "express": "^4.16.4",
     "node-sass": "^4.11.0"
   }
 }
