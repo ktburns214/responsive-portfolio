@@ -172,12 +172,45 @@ main {
   grid-area: bio;
   font-size: 1.5rem; }
 
+.portfolio {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr); }
+  .portfolio img {
+    width: 100%;
+    border: 3px #fff solid; }
+    .portfolio img:hover {
+      opacity: 0.5;
+      border-color: #4cbb17;
+      transition: all 0.5s ease-out; }
+
+.btn, .btn-dark, btn-light {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem; }
+  .btn:hover, .btn-dark:hover, btn-light:hover {
+    background: #4cbb17;
+    color: #000; }
+
+.btn-dark {
+  background: black;
+  color: #fff; }
+
+btn-light {
+  background: #c4c4c4;
+  color: #fff; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
   background: #2b2b2b;
   color: #fff;
   height: 60px; }
+
+@media screen and (min-width: 1171x) {
+  .portfolio {
+    grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -204,7 +237,10 @@ main {
       height: 150px; }
   .menu-branding {
     height: 25vh;
-    transform: translate3d(100%, 0, 0); } }
+    transform: translate3d(100%, 0, 0); }
+  .about-info {
+    grid-template-areas: "bioimage" "bio";
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
