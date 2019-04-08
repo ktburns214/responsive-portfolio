@@ -184,6 +184,25 @@ main {
       border-color: #4cbb17;
       transition: all 0.5s ease-out; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #4cbb17;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 .btn, .btn-dark, btn-light {
   display: block;
   padding: 0.5rem 1rem;
@@ -211,6 +230,10 @@ btn-light {
 @media screen and (min-width: 1171x) {
   .portfolio {
     grid-template-columns: repeat(4, 1fr); } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .portfolio {
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -240,8 +263,12 @@ btn-light {
     transform: translate3d(100%, 0, 0); }
   .about-info {
     grid-template-areas: "bioimage" "bio";
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .portfolio {
+    grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
-    margin-top: 10vh; } }
+    margin-top: 10vh; }
+  .portfolio {
+    grid-template-columns: 1fr; } }
