@@ -4,7 +4,8 @@
   "description": "Responsive portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o public/css/ --recursive"
+    "sass": "node-sass -w scss/ -o public/css/ --recursive",
+    "deploy": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -15,9 +16,11 @@
   "bugs": {
     "url": "https://github.com/ktburns214/responsive-portfolio/issues"
   },
-  "homepage": "https://github.com/ktburns214/responsive-portfolio#readme",
+  "homepage": "https://ktburns214.github.io/responsive-portfolio",
   "dependencies": {
     "express": "^4.16.4",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
-  }
+  },
+  "devDependencies": {}
 }
