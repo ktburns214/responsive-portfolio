@@ -97,13 +97,17 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);
 
+  .item {
+    border: 3px #fff solid;
+    padding: 1rem;
+  }
+
   img {
     width: 100%;
     border: 3px #fff solid;
 
     &:hover {
       opacity: 0.5;
-      border-color: $secondary-color;
       @include easeOut;
     }
   }
@@ -153,10 +157,10 @@ main {
   color: #fff;
 }
 
-btn-light {
+.btn-light {
   @extend .btn;
-  background: lighten($primary-color, 50);
-  color: #fff;
+  background: lighten($primary-color, 30);
+  color: black;
 }
 
 #main-footer {
