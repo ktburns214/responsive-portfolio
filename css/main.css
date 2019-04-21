@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #000;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #5c5d5b;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #696a68;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -72,7 +72,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -94,8 +94,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
-  color: #fff;
+  background: #696a68;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -112,7 +112,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(105, 106, 104, 0.9); }
 
 h1,
 h2,
@@ -176,12 +176,14 @@ main {
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
+  .portfolio .item {
+    border: 3px #fff solid;
+    padding: 1rem; }
   .portfolio img {
     width: 100%;
     border: 3px #fff solid; }
     .portfolio img:hover {
       opacity: 0.5;
-      border-color: #4cbb17;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -203,12 +205,12 @@ main {
       .boxes div:hover span {
         color: #000; }
 
-.btn, .btn-dark, btn-light {
+.btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, btn-light:hover {
+  .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #4cbb17;
     color: #000; }
 
@@ -216,15 +218,15 @@ main {
   background: black;
   color: #fff; }
 
-btn-light {
-  background: #c4c4c4;
-  color: #fff; }
+.btn-light {
+  background: #b6b6b5;
+  color: black; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
+  background: #50504f;
+  color: #000;
   height: 60px; }
 
 @media screen and (min-width: 1171x) {
