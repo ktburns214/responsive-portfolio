@@ -20,4 +20,4 @@ npm dependencies
 *node-sass
 *gh-pages
 
-![Image of computer](./public/img/dowhatyoulove_small.jpeg)
+![Image of computer](./public/img/dowhatyoulove_small.jpg)
