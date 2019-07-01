@@ -101,9 +101,11 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("../img/background.jpg");
+    background: url("../img/background3.jpg");
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    margin: 0;
+    padding: 0; }
     body#bg-img:after {
       content: "";
       position: absolute;
