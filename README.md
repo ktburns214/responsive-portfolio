@@ -1,4 +1,4 @@
-# responsive portfolio
+# Responsive Portfolio
 
 Portfolio from Web Development Boot Camp
 
