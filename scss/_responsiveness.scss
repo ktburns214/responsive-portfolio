@@ -3,9 +3,9 @@
   .portfolio {
     grid-template-columns: repeat(4, 1fr);
   }
-  .nav-phone {
-    display: none;
-  }
+  // .nav-phone {
+  //   display: none;
+  // }
 }
 
 //desktops and laptops
@@ -13,9 +13,9 @@
   .portfolio {
     grid-template-columns: repeat(3, 1fr);
   }
-  .nav-phone {
-    display: none;
-  }
+  // .nav-phone {
+  //   display: none;
+  // }
 }
 
 //tablets
@@ -71,9 +71,9 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .nav-phone {
-    display: none;
-  }
+  // .nav-phone {
+  //   display: none;
+  // }
 }
 
 //phones
@@ -85,7 +85,7 @@
   .portfolio {
     grid-template-columns: 1fr;
   }
-  .nav-two {
-    display: none;
-  }
+  // .nav-two {
+  //   display: none;
+  // }
 }

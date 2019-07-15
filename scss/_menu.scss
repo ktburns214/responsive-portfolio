@@ -1,43 +1,43 @@
 // navbar, all device sizes except phones
-.nav-two ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background: darken($primary-color, 50);
-  color: #fff;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+// .nav-two ul {
+//   list-style-type: none;
+//   margin: 0;
+//   padding: 0;
+//   overflow: hidden;
+//   background: darken($primary-color, 50);
+//   color: #fff;
+//   position: fixed;
+//   top: 0;
+//   width: 100%;
+// }
 
-.nav-two li {
-  float: left;
-  font-weight: 465;
-}
+// .nav-two li {
+//   float: left;
+//   font-weight: 465;
+// }
 
-.nav-two li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+// .nav-two li a {
+//   display: block;
+//   color: white;
+//   text-align: center;
+//   padding: 14px 16px;
+//   text-decoration: none;
+// }
 
-/* Change the link color to #111 (black) on hover */
-.nav-two li a:hover {
-  background: $secondary-color;
-  color: set-text-color($secondary-color);
-  @include easeOut;
-}
+// /* Change the link color to #111 (black) on hover */
+// .nav-two li a:hover {
+//   background: $secondary-color;
+//   color: set-text-color($secondary-color);
+//   @include easeOut;
+// }
 
-.nav-two .active {
-  color: $secondary-color;
-}
+// .nav-two .active {
+//   color: $secondary-color;
+// }
 
-.nav-two .home-nav {
-  background: $primary-color;
-}
+// .nav-two .home-nav {
+//   background: $primary-color;
+// }
 
 // hamberger menu, phones only
 //menu button
