@@ -3,12 +3,18 @@
   .portfolio {
     grid-template-columns: repeat(4, 1fr);
   }
+  .menu-btn {
+    display: none;
+  }
 }
 
 //desktops and laptops
 @include mediaLg {
   .portfolio {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .menu-btn {
+    display: none;
   }
 }
 
@@ -21,6 +27,9 @@
       line-height: 1;
       margin-bottom: 1rem;
     }
+  }
+  .menu-btn {
+    display: none;
   }
 
   ul.menu-nav,

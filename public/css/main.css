@@ -179,7 +179,7 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .portfolio .item {
-    border: 3px #fff solid;
+    border: 1px #fff solid;
     padding: 1rem; }
   .portfolio img {
     width: 100%;
@@ -233,11 +233,15 @@ main {
 
 @media screen and (min-width: 1171x) {
   .portfolio {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); }
+  .menu-btn {
+    display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .portfolio {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .menu-btn {
+    display: none; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -246,6 +250,8 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+  .menu-btn {
+    display: none; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
