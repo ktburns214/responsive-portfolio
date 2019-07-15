@@ -1,3 +1,37 @@
+.nav-two ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.nav-two li {
+  float: left;
+  font-weight: 465; }
+
+.nav-two li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+/* Change the link color to #111 (black) on hover */
+.nav-two li a:hover {
+  background: #4cbb17;
+  color: #000;
+  transition: all 0.5s ease-out; }
+
+.nav-two .active {
+  color: #4cbb17; }
+
+.nav-two .home-nav {
+  background: #696a68; }
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -120,7 +154,7 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-weight: 400; }
+  font-weight: 500; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
@@ -179,7 +213,7 @@ main {
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .portfolio .item {
-    border: 3px #fff solid;
+    border: 1px #fff solid;
     padding: 1rem; }
   .portfolio img {
     width: 100%;
@@ -233,11 +267,15 @@ main {
 
 @media screen and (min-width: 1171x) {
   .portfolio {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); }
+  .nav-phone {
+    display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .portfolio {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .nav-phone {
+    display: none; } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -246,6 +284,8 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+  .menu-btn {
+    display: none; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -269,10 +309,14 @@ main {
     grid-template-areas: "bioimage" "bio";
     grid-template-columns: 1fr; }
   .portfolio {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .nav-phone {
+    display: none; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
   .portfolio {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .nav-two {
+    display: none; } }
