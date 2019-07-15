@@ -13,6 +13,7 @@
 
 .nav-two li {
   float: left;
+  font-weight: 465;
 }
 
 .nav-two li a {
@@ -33,6 +34,11 @@
 .nav-two .active {
   color: $secondary-color;
 }
+
+.nav-two .home-nav {
+  background: $primary-color;
+}
+
 // hamberger menu, phones only
 //menu button
 .menu-btn {

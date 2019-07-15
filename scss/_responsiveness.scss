@@ -3,7 +3,7 @@
   .portfolio {
     grid-template-columns: repeat(4, 1fr);
   }
-  .menu-btn {
+  .nav-phone {
     display: none;
   }
 }
@@ -13,7 +13,7 @@
   .portfolio {
     grid-template-columns: repeat(3, 1fr);
   }
-  .menu-btn {
+  .nav-phone {
     display: none;
   }
 }
@@ -70,6 +70,10 @@
   .portfolio {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .nav-phone {
+    display: none;
+  }
 }
 
 //phones
@@ -80,5 +84,8 @@
 
   .portfolio {
     grid-template-columns: 1fr;
+  }
+  .nav-two {
+    display: none;
   }
 }

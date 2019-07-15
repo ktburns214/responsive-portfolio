@@ -10,7 +10,8 @@
   width: 100%; }
 
 .nav-two li {
-  float: left; }
+  float: left;
+  font-weight: 465; }
 
 .nav-two li a {
   display: block;
@@ -27,6 +28,9 @@
 
 .nav-two .active {
   color: #4cbb17; }
+
+.nav-two .home-nav {
+  background: #696a68; }
 
 .menu-btn {
   position: absolute;
@@ -264,13 +268,13 @@ main {
 @media screen and (min-width: 1171x) {
   .portfolio {
     grid-template-columns: repeat(4, 1fr); }
-  .menu-btn {
+  .nav-phone {
     display: none; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .portfolio {
     grid-template-columns: repeat(3, 1fr); }
-  .menu-btn {
+  .nav-phone {
     display: none; } }
 
 @media screen and (max-width: 768px) {
@@ -305,10 +309,14 @@ main {
     grid-template-areas: "bioimage" "bio";
     grid-template-columns: 1fr; }
   .portfolio {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .nav-phone {
+    display: none; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
   .portfolio {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .nav-two {
+    display: none; } }
