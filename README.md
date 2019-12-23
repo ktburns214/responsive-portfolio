@@ -9,7 +9,7 @@ http://bit.ly/kburnsportfolio
 - Clicky Game--The Beatles memory game using React.js
 - Liri-Bot--Siri-type Node app using Spofity, Bands in Town, and OMDb APIs
 - Bamazon--Amazon-type store using NodeJS and mySQL
-- Psychic\* Game--Number guessing game focusing on JavaScript
+- Psychic Game--Number guessing game focusing on JavaScript
 - Downton Abbey Trivia Game--Downton Abbey themed trivia game using JavaScript
 - Crystal Collector Game--Crystal collector game focusing on jQuery
 
