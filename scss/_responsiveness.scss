@@ -3,9 +3,6 @@
   .portfolio {
     grid-template-columns: repeat(4, 1fr);
   }
-  // .nav-phone {
-  //   display: none;
-  // }
 }
 
 //desktops and laptops
@@ -13,9 +10,6 @@
   .portfolio {
     grid-template-columns: repeat(3, 1fr);
   }
-  // .nav-phone {
-  //   display: none;
-  // }
 }
 
 //tablets
@@ -81,7 +75,4 @@
   .portfolio {
     grid-template-columns: 1fr;
   }
-  // .nav-two {
-  //   display: none;
-  // }
 }
